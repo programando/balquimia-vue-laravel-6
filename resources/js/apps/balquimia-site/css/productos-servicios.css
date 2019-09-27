@@ -1,0 +1,72 @@
+.site-prd-srv-container {
+    margin-top: 70px;
+    margin: 0 auto;
+    max-width: 1100px;
+
+
+}
+.site-prd-srv-container article {
+    align-self: center;
+}
+.site-prd-srv-container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.site-prd-srv-container p {
+    text-align: justify;
+    color: var(--black);
+    margin-bottom: 10px;
+    width: 80%;
+    align-self: center;
+    top: 0;
+}
+img {
+    max-width: 100%;
+}
+
+ 
+
+.site-prd-serv-card-container article {
+    
+    margin-top: 10px;
+    height: 430px;
+}
+@media screen and (min-width:480px ) {
+    .site-prd-serv-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .site-prd-srv {
+        flex: 0 1 calc( 50% - 1rem );
+    }
+}
+
+
+@media screen and (min-width:768px ) {
+     .site-prd-srv {
+        flex: 0 1 calc( 25% - 1rem );
+    }
+}
+
+.site-prd-serv-card h3 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.site-prd-serv-card p {
+    text-align: justify;
+    font-size: 0.85rem;
+    line-height: 20px;
+    width: 90%;
+    margin-left: 10px;
+}

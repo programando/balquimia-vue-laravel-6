@@ -1,0 +1,35 @@
+:root {
+    --red  : red;
+    --black: #252a34;
+    --blue : #08d9d6;
+    --white: #eaeaea;
+    --blanco: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    font-size: 0.8rem;
+}
+
+ p {
+    text-align: justify;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 25px;
+    margin: 10px 0px;
+}
+
