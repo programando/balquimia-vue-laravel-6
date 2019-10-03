@@ -12,6 +12,7 @@
     --blue : #08d9d6;
     --white: #eaeaea;
     --blanco: white;
+    --balquimia : #ff5733;
 }
 
 *{
@@ -41,7 +42,10 @@ body {
     margin: 10px 0px;
 }
 
-
+.contenedor-principal-balquimia-site {
+    max-width: 100%;
+    margin: 0 auto; 
+}
 .header {
     position: relative;
     width: 100%;
@@ -161,10 +165,11 @@ font-weight: 200;
 .quienes-somos{
     width: 100%;
     margin-top: 70px;
+    margin-bottom:  70px;
 }
 
 .quienes-somos .info-container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -188,15 +193,19 @@ font-weight: 200;
 }
 
 .site-prd-srv-container {
-    margin-top: 70px;
+    
     margin: 0 auto;
     max-width: 1100px;
-
-
+    width: 100%;
+    
 }
+
+
+
 .site-prd-srv-container article {
     align-self: center;
 }
+
 .site-prd-srv-container h1 {
     text-align: center;
     font-size: 40px;
@@ -206,56 +215,98 @@ font-weight: 200;
     margin-bottom: 10px
 }
 
-.site-prd-srv-container p {
-    text-align: justify;
-    color: var(--black);
-    margin-bottom: 10px;
-    width: 80%;
-    align-self: center;
-    top: 0;
-}
-img {
-    max-width: 100%;
-}
 
- 
-
-.site-prd-serv-card-container article {
-    
-    margin-top: 10px;
-    height: 430px;
-}
-@media screen and (min-width:480px ) {
-    .site-prd-serv-card-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-self: center;
-    }
-    .site-prd-srv {
-        flex: 0 1 calc( 50% - 1rem );
-    }
-}
-
-
-@media screen and (min-width:768px ) {
-     .site-prd-srv {
-        flex: 0 1 calc( 25% - 1rem );
-    }
-}
-
-.site-prd-serv-card h3 {
-    text-align: center;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    line-height: 25px;
-}
-
-.site-prd-serv-card p {
-    text-align: justify;
-    font-size: 0.85rem;
-    line-height: 20px;
+.contenedor-tarjetas {
     width: 90%;
-    margin-left: 10px;
-}
+    max-width: 1240px;
+    margin: 0 auto;
+    
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  
+  @media only screen and (min-width: 500px) {
+    .contenedor-tarjetas {
+      grid-template-columns: 1fr 1fr;
+    }  
+  }
+  
+  @media only screen and (min-width: 850px) {
+    .contenedor-tarjetas {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  
+  .card {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+  }
+  
+  .card:hover {
+    top: -4px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .card article {
+    padding: 20px;
+  }
+  
+  .card .thumb1, .thumb2, .thumb3, .thumb4, .thumb5, .thumb6, .thumb7, .thumb8 {
+    padding-bottom: 80%;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+    
+  }
+
+  
+  /* typography */
+  .card h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card p { 
+    line-height: 1.4;
+    font-size: 14px;
+  }
+  
+  .card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+  }
+
+  .card article {
+    padding: 20px;
+    flex: 1;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card p { 
+    flex: 1; /* make p grow to fill available space*/
+    line-height: 1.4;
+  }

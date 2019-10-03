@@ -4,6 +4,7 @@
     --blue : #08d9d6;
     --white: #eaeaea;
     --blanco: white;
+    --balquimia : #ff5733;
 }
 
 *{
@@ -33,3 +34,7 @@ body {
     margin: 10px 0px;
 }
 
+.contenedor-principal-balquimia-site {
+    max-width: 100%;
+    margin: 0 auto; 
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+
 
     <section class="quienes-somos">
        <span id="quienesSomos"></span>
@@ -11,23 +11,13 @@
         Dentro de nuestros productos podrá encontrar:<br>
         Detergentes, desinfectantes, desengrasantes, desoxidantes, dieléctricos, desincrustantes, removedores de tintas, desmoldantes, despercudidores, abrillantadores y ceras de varios tipos, entre otros</p>
         
-        <div class="about-galery"></div>
+
       </div>
     </section>
    
 
-  </div>
+  
 </template>
 
 
-<script>
-   import MenuOpciones from './home-menu';
-   import QuinesSomos from './quienes-somos';
-   import ProductosServicios from './productos-servicios';
-   
-   export default {
-       
-       components: { MenuOpciones, QuinesSomos, ProductosServicios }, 
-
-  };
-</script>
+ 

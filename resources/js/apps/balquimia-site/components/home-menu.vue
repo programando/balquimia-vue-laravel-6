@@ -7,7 +7,7 @@
             <a class="activo" v-scroll-to="'#quienesSomos'">¿Quiénes somos?</a>
             <a  v-scroll-to="'#productosServicios'">Productos y Servicios</a>
             
-            <a href="#">Nuestros Clientes</a>
+            <a v-scroll-to="'#clientes'">Nuestros Clientes</a>
             <a href="#">Tienda Virtual</a>
             <a href="#">E.R.P. Balquimia</a>
             <a href="#">Contáctenos</a>
