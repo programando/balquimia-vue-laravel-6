@@ -4,10 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Balquimia S.A.S. | Chemical Solutions </title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/app.css')}}">
         <!-- Styles -->
  
@@ -20,6 +19,7 @@
                </div>           
         
         </div>
+        <script src="https://kit.fontawesome.com/69f5e9bf38.js" crossorigin="anonymous"></script>
         <script src="{{ mix('js/app.js')}}"></script>
     </body>
 </html>

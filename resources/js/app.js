@@ -4,7 +4,7 @@ import Vue              from 'vue';
 import router           from './files/routes';
 const VueScrollTo = require('vue-scrollto')
 
-Vue.use(VueScrollTo, {
+Vue.use( VueScrollTo, {
     container: "body",
     duration: 2000,
     easing: "ease",

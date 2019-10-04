@@ -1873,10 +1873,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      img01: '/storage/balquimia-site/clientes/1.png',
+      img02: '/storage/balquimia-site/clientes/2.png',
+      img03: '/storage/balquimia-site/clientes/3.png',
+      img04: '/storage/balquimia-site/clientes/4.png',
+      img05: '/storage/balquimia-site/clientes/5.png',
+      img06: '/storage/balquimia-site/clientes/6.png',
+      img07: '/storage/balquimia-site/clientes/7.png',
+      img08: '/storage/balquimia-site/clientes/8.png',
+      img09: '/storage/balquimia-site/clientes/9.png',
+      img10: '/storage/balquimia-site/clientes/10.png',
+      img11: '/storage/balquimia-site/clientes/11.png',
+      img12: '/storage/balquimia-site/clientes/12.png',
+      img13: '/storage/balquimia-site/clientes/13.png',
+      img14: '/storage/balquimia-site/clientes/14.png'
+    };
+  },
   components: {
     Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
     Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
@@ -1930,12 +1946,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      imgLogo: '/storage/balquimia/logo/logo-all-orange.png'
+    };
+  },
   components: {
     MenuOpciones: _home_menu__WEBPACK_IMPORTED_MODULE_0__["default"],
     QuinesSomos: _quienes_somos__WEBPACK_IMPORTED_MODULE_1__["default"],
@@ -1955,6 +1975,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
 //
 //
 //
@@ -2103,7 +2127,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.img-header {\n         background: url(\"/storage/balquimia-site/header/almacen.jpg\");\n         opacity: 1;\n}\n", ""]);
+exports.push([module.i, "\n.img-header {\n  background: url(\"/storage/balquimia-site/header/almacen.jpg\");\n  opacity: 1;\n}\n.imgLogo {\n    width: 450px;\n}\n\n", ""]);
 
 // exports
 
@@ -20422,9 +20446,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("section", { staticClass: "clientes" }, [
-    _c("span", { attrs: { id: "clientes" } }),
-    _vm._v(" "),
+  return _c("section", { staticClass: "contenedor-clientes" }, [
     _c(
       "div",
       { staticClass: "info-container" },
@@ -20433,7 +20455,7 @@ var render = function() {
         _vm._v(" "),
         _c("p", [
           _vm._v(
-            " Estas son algunas de las empresas que durante años han confiado en nuestro profesionalismo y calidad de nuestros productos:  "
+            " Estas son algunas de las empresas que durante años han confiado en nuestro profesionalismo y calidad de los prductos que fabricamos:  "
           )
         ]),
         _vm._v(" "),
@@ -20446,39 +20468,99 @@ var render = function() {
               "mouse-drag": false,
               centerMode: true,
               loop: true,
-              autoplayTimeout: 2500,
+              autoplayTimeout: 3000,
               perPage: 5
             }
           },
           [
-            _c("slide", [_vm._v("  Slide 1 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img01 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 2 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img02 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 3 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img03 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 4 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img04 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 5 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img05 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 6 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img06 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 7 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img07 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 8 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img08 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 9 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img09 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 10 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img10 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 11 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img11 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 12 Content ")]),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img12 } })
+              ])
+            ]),
             _vm._v(" "),
-            _c("slide", [_vm._v("  Slide 13 Content ")])
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img13 } })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("slide", [
+              _c("div", { staticClass: "VueCarousel-slide VueCarousel-img" }, [
+                _c("img", { attrs: { src: _vm.img14 } })
+              ])
+            ])
           ],
           1
-        )
+        ),
+        _vm._v(" "),
+        _c("span", { attrs: { id: "clientes" } })
       ],
       1
     )
@@ -20596,7 +20678,24 @@ var render = function() {
     _c(
       "header",
       { staticClass: "header" },
-      [_c("MenuOpciones"), _vm._v(" "), _vm._m(1)],
+      [
+        _c("MenuOpciones"),
+        _vm._v(" "),
+        _c("div", { staticClass: "img-header" }, [
+          _c("div", { staticClass: "welcome" }, [
+            _c("img", {
+              staticClass: "imgLogo",
+              attrs: { src: _vm.imgLogo, alt: "" }
+            }),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "Innovación y desarrollo de productos químicos para amplios sectores de la industria nacional e internacional, con los más altos estándades de calidad y comprometidos con el cuidado y conservación del medio ambiente."
+              )
+            ])
+          ])
+        ])
+      ],
       1
     ),
     _vm._v(" "),
@@ -20618,26 +20717,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "go-top" }, [
+    return _c("div", { staticClass: "btn-go-top" }, [
       _c("span", [_c("i", { staticClass: "fas fa-angle-up" })])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "img-header" }, [
-      _c("div", { staticClass: "welcome" }, [
-        _c("h1", [_vm._v("BALQUIMIA S.A.S.")]),
-        _vm._v(" "),
-        _c("hr"),
-        _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            " Innovación y desarrollo de productos químicos para amplios sectores de la industria nacional e internacional, con los más altos estándades de calidad y comprometidos con el cuidado y conservación del medio ambiente. "
-          )
-        ])
-      ])
     ])
   }
 ]
@@ -20669,163 +20750,165 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "site-prd-srv-container" }, [
-      _c("span", { attrs: { id: "productosServicios" } }),
-      _vm._v(" "),
-      _c("h1", [_vm._v("Productos y Servicios")]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n    Contamos con un departamento especializado en investigación y desarrollo de nuevos productos para los diferentes sectores del mercado industrial, ofreciendo alta calidad, eficiencia y durabilidad.\n    "
-        ),
-        _c("br"),
-        _vm._v(
-          "En Balquimias S.A.S. contamos con un equipo de profesionales idóneos, orientados a la asesoría técnica de postventa, que garantizan la óptima implementación y el manejo eficiente de nuestros productos.\n    "
-        ),
-        _c("br"),
+    return _c("section", { staticClass: "site-prd-srv-container" }, [
+      _c("div", { staticClass: "info-container" }, [
+        _c("span", { attrs: { id: "productosServicios" } }),
         _vm._v(" "),
-        _c("br"),
-        _vm._v(
-          "A continuación puede consultar detalles de cada una de nuestras líneas:\n  "
-        )
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "contenedor-tarjetas" }, [
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb1" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("ALIMENTARIA")]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Línea de productos químicos especializados para limpieza y desinfección en la industria alimentaría. Lavado completo de instalaciones incluyendo equipos e implementos."
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
-              ])
-            ])
-          ])
+        _c("h1", [_vm._v("Productos y Servicios")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n    Contamos con un departamento especializado en investigación y desarrollo de nuevos productos para los diferentes sectores del mercado industrial, ofreciendo alta calidad, eficiencia y durabilidad.\n    "
+          ),
+          _c("br"),
+          _vm._v(
+            "En Balquimias S.A.S. contamos con un equipo de profesionales idóneos, orientados a la asesoría técnica de postventa, que garantizan la óptima implementación y el manejo eficiente de nuestros productos.\n    "
+          ),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(
+            "A continuación puede consultar detalles de cada una de nuestras líneas:\n  "
+          )
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb2" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("ARTES GRÁFICAS")]),
+        _c("div", { staticClass: "contenedor-tarjetas" }, [
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb1" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n            Limpiadores especializados de rodillos y mantillas, útiles para remover rápido y fácil tintas de la batería de las maquinas offset de lavado automático o manual, utilizadas en la industria litográfica.\n            "
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("ALIMENTARIA")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Línea de productos químicos especializados para limpieza y desinfección en la industria alimentaría. Lavado completo de instalaciones incluyendo equipos e implementos."
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb3" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("AUTOMOTRIZ")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb2" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n              Diseñados para lavar externamente cualquier tipo de vehículo (carros,camiones, buses y demás ) sin contaminar el medio ambiente.\n            "
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("ARTES GRÁFICAS")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n            Limpiadores especializados de rodillos y mantillas, útiles para remover rápido y fácil tintas de la batería de las maquinas offset de lavado automático o manual, utilizadas en la industria litográfica.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb4" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("HOTELERA")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb3" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n              Limpieza y desinfección con aromas perdurables\n            "
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("AUTOMOTRIZ")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n              Diseñados para lavar externamente cualquier tipo de vehículo (carros,camiones, buses y demás ) sin contaminar el medio ambiente.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb5" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("MANT. INDUSTRIAL")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb4" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n              Ideales para la remoción profunda y fácil de grasas inorgánicas maquinadas, crudo de castilla, full Oil, negro de humo y diversas suciedades adheridas a herramientas, piezas mecánicas, tuberías, tanques, pisos o diversas superficies en ambientes industriales muy exigentes.\n            "
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("HOTELERA")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n              Limpieza y desinfección con aromas perdurables\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb6" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("MATERIAS PRIMAS")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb5" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n              Variedad de productos químicos especializados que pueden ser incorporados como materias primas en la fabricación de productos de aseo.\n            "
-                )
-              ]),
-              _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("MANT. INDUSTRIAL")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n              Ideales para la remoción profunda y fácil de grasas inorgánicas maquinadas, crudo de castilla, full Oil, negro de humo y diversas suciedades adheridas a herramientas, piezas mecánicas, tuberías, tanques, pisos o diversas superficies en ambientes industriales muy exigentes.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "item-1" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "thumb7" }),
-            _vm._v(" "),
-            _c("article", [
-              _c("h1", [_vm._v("SANIDAD PORTÁTIL")]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb6" }),
               _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "\n              Línea de productos químicos especializados para mantenimiento de baños portátiles.\n            "
-                )
-              ]),
+              _c("article", [
+                _c("h1", [_vm._v("MATERIAS PRIMAS")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n              Variedad de productos químicos especializados que pueden ser incorporados como materias primas en la fabricación de productos de aseo.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "item-1" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "thumb7" }),
               _vm._v(" "),
-              _c("span", [
-                _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+              _c("article", [
+                _c("h1", [_vm._v("SANIDAD PORTÁTIL")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n              Línea de productos químicos especializados para mantenimiento de baños portátiles.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("span", [
+                  _c("a", { attrs: { href: "" } }, [_vm._v("Ver productos...")])
+                ])
               ])
             ])
           ])
@@ -20869,18 +20952,19 @@ var staticRenderFns = [
         _c("h1", [_vm._v("¿ Quiénes Somos ?")]),
         _vm._v(" "),
         _c("p", [
+          _c("strong", [_vm._v("Balquimias S.A.S. ")]),
           _vm._v(
-            " Balquimias S.A.S. es una empresa colombiana con experiencia en el mercado industrial. Desarrollamos y fabricamos productos de la más alta calidad, con el propósito de brindar las mejores soluciones en limpieza, desinfección y mantenimiento industrial, en sectores como el alimentario, artes gráficas, industrial, sanidad portátil, materias primas para los industriales del aseo y del reencauche. "
+            " es una empresa colombiana con experiencia en el mercado industrial. Desarrollamos y fabricamos productos de la más alta calidad, con el propósito de brindar las mejores soluciones en limpieza, desinfección y mantenimiento industrial, en sectores como el alimentario, artes gráficas, industrial, sanidad portátil, materias primas para los industriales del aseo y del reencauche.\n      "
           ),
           _c("br"),
           _vm._v(
-            " \n    Nuestra misión es solucionar los requerimientos específicos de cada sector, ofreciéndoles los productos más adecuados y especializados, elaborados de acuerdo a las necesidades específicas de cada sector. "
+            "Nuestra misión es solucionar los requerimientos específicos de cada sector, ofreciéndoles los productos más adecuados y especializados, elaborados de acuerdo a las necesidades específicas de cada sector.\n      "
           ),
           _c("br"),
-          _vm._v(" \n    Dentro de nuestros productos podrá encontrar:"),
+          _vm._v("Dentro de nuestros productos podrá encontrar:\n      "),
           _c("br"),
           _vm._v(
-            "\n    Detergentes, desinfectantes, desengrasantes, desoxidantes, dieléctricos, desincrustantes, removedores de tintas, desmoldantes, despercudidores, abrillantadores y ceras de varios tipos, entre otros"
+            "Detergentes, desinfectantes, desengrasantes, desoxidantes, dieléctricos, desincrustantes, removedores de tintas, desmoldantes, despercudidores, abrillantadores y ceras de varios tipos, entre otros\n    "
           )
         ])
       ])
@@ -36841,17 +36925,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/apps/balquimia-site/js/app.js":
-/*!****************************************************!*\
-  !*** ./resources/js/apps/balquimia-site/js/app.js ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
 /***/ "./resources/js/files/bootstrap.js":
 /*!*****************************************!*\
   !*** ./resources/js/files/bootstrap.js ***!
@@ -36881,6 +36954,39 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/files/btn-go-top.js":
+/*!******************************************!*\
+  !*** ./resources/js/files/btn-go-top.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Efectos scroll
+//------------------------------------------------------------
+var prevScrollPos = window.pageYOffset;
+var goTop = document.querySelector('.btn-go-top');
+
+window.onscroll = function () {
+  var arriba = window.pageYOffset;
+
+  if (arriba <= 600) {
+    goTop.style.right = '-100%';
+    goTop.style.transition = '2.8s';
+  } else {
+    goTop.style.right = '0px';
+    goTop.style.transition = '0.8s';
+  }
+}; // Desplazarme hacia rriba
+//--------------------------
+
+
+goTop.addEventListener('click', function () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
 
 /***/ }),
 
@@ -36945,14 +37051,14 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.config.devtools = true;
 /***/ }),
 
 /***/ 0:
-/*!********************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/js/apps/balquimia-site/js/app.js ***!
-  \********************************************************************************/
+/*!**********************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/js/files/btn-go-top.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! D:\Laragon\www\balquimia-vue-laravel-6\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Laragon\www\balquimia-vue-laravel-6\resources\js\apps\balquimia-site\js\app.js */"./resources/js/apps/balquimia-site/js/app.js");
+module.exports = __webpack_require__(/*! D:\Laragon\www\balquimia-vue-laravel-6\resources\js\files\btn-go-top.js */"./resources/js/files/btn-go-top.js");
 
 
 /***/ })

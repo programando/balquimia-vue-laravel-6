@@ -1,7 +1,9 @@
 <template>
 
-  <div class="site-prd-srv-container">
+  <section class="site-prd-srv-container">
+    <div class='info-container'>
     <span id="productosServicios"></span>
+    
     <h1>Productos y Servicios</h1>
     <p>
       Contamos con un departamento especializado en investigación y desarrollo de nuevos productos para los diferentes sectores del mercado industrial, ofreciendo alta calidad, eficiencia y durabilidad.
@@ -121,7 +123,9 @@
  
 
     </div> <!--Contenedor-tarjetas -->
-  </div> <!-- site-prd-srv-container -->
+    </div>
+    
+  </section> <!-- site-prd-srv-container -->
  
 </template>
 

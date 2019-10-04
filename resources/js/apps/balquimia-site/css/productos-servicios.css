@@ -1,12 +1,13 @@
 .site-prd-srv-container {
-    
     margin: 0 auto;
-    max-width: 1100px;
     width: 100%;
-    
 }
 
 
+.site-prd-srv-container .info-container {
+    width: 85%;
+    margin: auto;
+}
 
 .site-prd-srv-container article {
     align-self: center;
