@@ -28,6 +28,7 @@ mix.styles(
         "resources/js/apps/balquimia-site/css/quienes-somos.css",
         "resources/js/apps/balquimia-site/css/productos-servicios.css",
         "resources/js/apps/balquimia-site/css/clientes.css",
+        "resources/js/apps/balquimia-site/css/footer.css",
     ],
     "public/css/app.css"
 ); // Archivo de salida CSS

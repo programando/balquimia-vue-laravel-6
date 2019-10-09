@@ -13,30 +13,37 @@
     height         : 60px;
     font-size      : 1rem;
     display        : flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items    : center;
-   
 }
 .menu a {
     color: var(--blanco);
     margin-right: 18px;
 }
 
-.menu .list-container .lists li  {
+.menu .list-container .lists li a{
     cursor: pointer;
-}
-
-/*
-
-   
- 
-.menu .list-container {
-    margin-right: 20px;
 }
 
 .menu .list-container .lists {
     display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.menu .list-container {
+    margin-right: 20px;
+}
+
+.logo-box .logo-menu {
+    display: none;
+}
+/*
+
+   
+ 
+
+
 
 
 .menu .list-container .lists a {

@@ -30,7 +30,18 @@
         "vuex": "^3.1.1",
         "webpack": "^4.41.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+
+    "browserslist": [
+        "defaults",
+        "not ie < 11",
+        "last 2 versions",
+        "> 1%",
+        "iOS 7",
+        "last 3 iOS versions"
+      ]
+
+
 }
 
  

@@ -26,6 +26,7 @@
       <ProductosServicios></ProductosServicios>
       <Clientes></Clientes>
     </main>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -35,6 +36,7 @@ import MenuOpciones         from "./home-menu";
 import QuinesSomos          from "./quienes-somos";
 import ProductosServicios   from "./productos-servicios";
 import Clientes             from "./clientes";
+import Footer               from "./footer";
 
 export default {
     data() {
@@ -42,7 +44,7 @@ export default {
               imgLogo : '/storage/balquimia/logo/logo-all-orange.png',
         }
     },
-  components: { MenuOpciones, QuinesSomos, ProductosServicios, Clientes }
+  components: { MenuOpciones, QuinesSomos, ProductosServicios, Clientes, Footer }
 };
 </script>
 

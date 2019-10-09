@@ -1901,6 +1901,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      imgLogo: '/storage/balquimia/logo/logo-all-orange.png'
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/index.vue?vue&type=script&lang=js&":
 /*!************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/index.vue?vue&type=script&lang=js& ***!
@@ -1914,6 +1957,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _quienes_somos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./quienes-somos */ "./resources/js/apps/balquimia-site/components/quienes-somos.vue");
 /* harmony import */ var _productos_servicios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./productos-servicios */ "./resources/js/apps/balquimia-site/components/productos-servicios.vue");
 /* harmony import */ var _clientes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clientes */ "./resources/js/apps/balquimia-site/components/clientes.vue");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer */ "./resources/js/apps/balquimia-site/components/footer.vue");
 //
 //
 //
@@ -1946,6 +1990,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+
 
 
 
@@ -1960,7 +2006,8 @@ __webpack_require__.r(__webpack_exports__);
     MenuOpciones: _home_menu__WEBPACK_IMPORTED_MODULE_0__["default"],
     QuinesSomos: _quienes_somos__WEBPACK_IMPORTED_MODULE_1__["default"],
     ProductosServicios: _productos_servicios__WEBPACK_IMPORTED_MODULE_2__["default"],
-    Clientes: _clientes__WEBPACK_IMPORTED_MODULE_3__["default"]
+    Clientes: _clientes__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Footer: _footer__WEBPACK_IMPORTED_MODULE_4__["default"]
   }
 });
 
@@ -2112,6 +2159,44 @@ __webpack_require__.r(__webpack_exports__);
     return {};
   }
 });
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.footer {  \n    background-image: url(\"/storage/balquimia-site/footer/footer.jpg\");\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.logo-menu {\n    width: 180px;\n    margin-left: 20px;\n    padding: 15px;\n}\n\n", ""]);
+
+// exports
+
 
 /***/ }),
 
@@ -19771,6 +19856,66 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./home-menu.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/index.vue?vue&type=style&index=0&lang=css&":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--5-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--5-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/index.vue?vue&type=style&index=0&lang=css& ***!
@@ -20573,6 +20718,75 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "footer" }, [
+        _c("div", { staticClass: "deg-footer" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "contenedor-footer" }, [
+          _c("div", { staticClass: "contenedor-cajas" }, [
+            _c("div", { staticClass: "footer-1" }, [
+              _vm._v("\n                      caja 1\n              ")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "footer-2" }, [
+              _vm._v("\n                  Caja 2\n              ")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "footer-3" }, [
+              _c("ul", [
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _vm._v(" Política para el tratamiento de datos")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _vm._v(" Fichas técnicas de productos")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _vm._v(" Términos y condiciones")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=template&id=4fe3c75d&":
 /*!********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=template&id=4fe3c75d& ***!
@@ -20590,6 +20804,13 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("nav", { staticClass: "menu" }, [
+      _c("div", { staticClass: "logo-box" }, [
+        _c("img", {
+          staticClass: "logo-menu",
+          attrs: { src: _vm.imgLogo, alt: "" }
+        })
+      ]),
+      _vm._v(" "),
       _c("div", { staticClass: "list-container" }, [
         _c("ul", { staticClass: "lists" }, [
           _c("li", [
@@ -20607,8 +20828,10 @@ var render = function() {
                 staticClass: "activo"
               },
               [_vm._v("¿Quiénes somos?")]
-            ),
-            _vm._v(" "),
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
             _c(
               "a",
               {
@@ -20622,8 +20845,10 @@ var render = function() {
                 ]
               },
               [_vm._v("Productos y Servicios")]
-            ),
-            _vm._v(" "),
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
             _c(
               "a",
               {
@@ -20637,20 +20862,45 @@ var render = function() {
                 ]
               },
               [_vm._v("Nuestros Clientes")]
-            ),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "#" } }, [_vm._v("Tienda Virtual")]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "#" } }, [_vm._v("E.R.P. Balquimia")]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "#" } }, [_vm._v("Contáctenos")])
-          ])
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2)
         ])
       ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "#" } }, [_vm._v("Tienda Virtual")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "#" } }, [_vm._v("E.R.P. Balquimia")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c("a", { attrs: { href: "#" } }, [_vm._v("Contáctenos")])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -20672,45 +20922,52 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "contenedor-principal-balquimia-site" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c(
-      "header",
-      { staticClass: "header" },
-      [
-        _c("MenuOpciones"),
-        _vm._v(" "),
-        _c("div", { staticClass: "img-header" }, [
-          _c("div", { staticClass: "welcome" }, [
-            _c("img", {
-              staticClass: "imgLogo",
-              attrs: { src: _vm.imgLogo, alt: "" }
-            }),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Innovación y desarrollo de productos químicos para amplios sectores de la industria nacional e internacional, con los más altos estándades de calidad y comprometidos con el cuidado y conservación del medio ambiente."
-              )
+  return _c(
+    "div",
+    { staticClass: "contenedor-principal-balquimia-site" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "header",
+        { staticClass: "header" },
+        [
+          _c("MenuOpciones"),
+          _vm._v(" "),
+          _c("div", { staticClass: "img-header" }, [
+            _c("div", { staticClass: "welcome" }, [
+              _c("img", {
+                staticClass: "imgLogo",
+                attrs: { src: _vm.imgLogo, alt: "" }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Innovación y desarrollo de productos químicos para amplios sectores de la industria nacional e internacional, con los más altos estándades de calidad y comprometidos con el cuidado y conservación del medio ambiente."
+                )
+              ])
             ])
           ])
-        ])
-      ],
-      1
-    ),
-    _vm._v(" "),
-    _c(
-      "main",
-      [
-        _c("QuinesSomos"),
-        _vm._v(" "),
-        _c("ProductosServicios"),
-        _vm._v(" "),
-        _c("Clientes")
-      ],
-      1
-    )
-  ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "main",
+        [
+          _c("QuinesSomos"),
+          _vm._v(" "),
+          _c("ProductosServicios"),
+          _vm._v(" "),
+          _c("Clientes")
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("Footer")
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
@@ -36645,6 +36902,77 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/apps/balquimia-site/components/footer.vue":
+/*!****************************************************************!*\
+  !*** ./resources/js/apps/balquimia-site/components/footer.vue ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.vue?vue&type=template&id=918ce00a& */ "./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a&");
+/* harmony import */ var _footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer.vue?vue&type=style&index=0&lang=css& */ "./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  script,
+  _footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/apps/balquimia-site/components/footer.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a&":
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib??vue-loader-options!./footer.vue?vue&type=template&id=918ce00a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/footer.vue?vue&type=template&id=918ce00a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_footer_vue_vue_type_template_id_918ce00a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/apps/balquimia-site/components/home-menu.vue":
 /*!*******************************************************************!*\
   !*** ./resources/js/apps/balquimia-site/components/home-menu.vue ***!
@@ -36655,15 +36983,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_menu_vue_vue_type_template_id_4fe3c75d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home-menu.vue?vue&type=template&id=4fe3c75d& */ "./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=template&id=4fe3c75d&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _home_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-menu.vue?vue&type=script&lang=js& */ "./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-menu.vue?vue&type=style&index=0&lang=css& */ "./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
-var script = {}
+
+
+
 
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _home_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _home_menu_vue_vue_type_template_id_4fe3c75d___WEBPACK_IMPORTED_MODULE_0__["render"],
   _home_menu_vue_vue_type_template_id_4fe3c75d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
@@ -36677,6 +37009,36 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 if (false) { var api; }
 component.options.__file = "resources/js/apps/balquimia-site/components/home-menu.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../node_modules/vue-loader/lib??vue-loader-options!./home-menu.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************!*\
+  !*** ./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader!../../../../../node_modules/css-loader??ref--5-1!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/src??ref--5-2!../../../../../node_modules/vue-loader/lib??vue-loader-options!./home-menu.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/apps/balquimia-site/components/home-menu.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_5_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_5_2_node_modules_vue_loader_lib_index_js_vue_loader_options_home_menu_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -36966,18 +37328,35 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 // Efectos scroll
 //------------------------------------------------------------
-var prevScrollPos = window.pageYOffset;
+var enlaces = document.querySelectorAll('.lists li a');
 var goTop = document.querySelector('.btn-go-top');
+var menu = document.querySelector('.menu');
+var logoMenu = document.querySelector('.logo-menu');
+var prevScrollPos = window.pageYOffset;
 
 window.onscroll = function () {
   var arriba = window.pageYOffset;
 
   if (arriba <= 600) {
+    //Botón de ir arriba
     goTop.style.right = '-100%';
-    goTop.style.transition = '2.8s';
+    goTop.style.transition = '2.8s'; //Contenedor del menu
+
+    menu.style.background = 'none'; // Logo del menu
+
+    logoMenu.style.display = 'none';
+    menu.style.transition = '0.9s';
   } else {
+    //Boton de subir arriba
     goTop.style.right = '0px';
-    goTop.style.transition = '0.8s';
+    goTop.style.transition = '0.8s'; //Contenedor del menu
+
+    menu.style.top = '0';
+    menu.style.background = '#ff5733';
+    menu.style.opacity = '1';
+    menu.style.transition = '0.9s'; //Logo del lado izquierdo del menu
+
+    logoMenu.style.display = 'inline';
   }
 }; // Desplazarme hacia rriba
 //--------------------------
@@ -36987,6 +37366,25 @@ goTop.addEventListener('click', function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+/**========================================================== */
+
+/** Intercambio de la clase activo en el menu */
+
+/**========================================================== */
+
+enlaces.forEach(function (element) {
+  element.addEventListener('click', function (event) {
+    enlaces.forEach(function (link) {
+      link.classList.remove('activo');
+    });
+    event.target.classList.add('activo');
+  });
+});
+/**========================================================== */
+
+/** Intercambio de la clase activo en el menu */
+
+/**========================================================== */
 
 /***/ }),
 
