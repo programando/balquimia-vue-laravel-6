@@ -7,16 +7,16 @@
         <div class="contenedor-footer">
             <div class="contenedor-cajas">
                 <div class="footer-1">
-                        caja 1
+                        Información para el Footer (1)
                 </div>
                 <div class="footer-2">
-                    Caja 2
+                    Información para el Footer (2)
                 </div>
                 <div class="footer-3">
                     <ul>
                         <li><a href=""> Política para el tratamiento de datos</a></li>
-                        <li><a href=""> Fichas técnicas de productos</a></li>
                         <li><a href=""> Términos y condiciones</a></li>
+                        <li><a href=""> Fichas técnicas de productos</a></li>
 
                     </ul>
                 </div>
