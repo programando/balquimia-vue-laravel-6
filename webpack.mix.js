@@ -1,4 +1,11 @@
-const mix = require("laravel-mix");
+//const autoprefixer = require("autoprefixer");
+const mix          = require("laravel-mix");
+
+
+mix.options({
+    postCss: [require('autoprefixer')],
+});
+
 
 mix.js(
     [
@@ -14,6 +21,10 @@ mix.scripts(
     ], 
     "public/js/Vendors.js"); // Archivo de salida JS
 */
+
+mix.sass('resources/sass/app.scss', 'public/css/sas.css');
+    
+    
 
 mix.styles(
     [

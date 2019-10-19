@@ -7,9 +7,12 @@ Vue.config.devtools = true;
 
 export default new Router({
    routes : [
-        { component :
-              require('../apps/balquimia-site/components/index.vue').default,                   name: 'Balquimia-site-index',             path: '/'     },
+        { 
+          path: '/'  , name: 'Balquimia-site-index',  
+          component :  require('../apps/balquimia-site/components/index.vue').default,                                 
+        },
 
+      
      /*   { component :
               require('../app/maestros/Cargos'),                    name: 'cargos',                path: '/cargos'     },
         { component :

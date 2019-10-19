@@ -4,9 +4,10 @@
     --blue      : #08d9d6;
     --white     : #eaeaea;
     --blanco    : white;
-    --balquimia : #ff5733;
+    --balquimia : #f9512f;
+    
 }
-
+/* --balquimia : #ff5733; */ 
 *{
     margin: 0;
     padding: 0;
