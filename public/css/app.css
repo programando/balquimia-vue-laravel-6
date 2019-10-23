@@ -1,36 +1,4 @@
 
-
-.btn-go-top {
-    position: fixed;
-    bottom: 0px;
-    right: -100%;
-    width: 50px;
-    height: 50px;
-    border: 2px solid red;
-    background: var(--balquimia);
-    
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor:pointer;
-    transition: 400ms;
-    z-index: 9999;
-
-}
-
-.btn-go-top > span {
-    font-size: 30px;
-    color: var(--blanco);
-}
-
-.btn-go-top:hover {
-    border: 2px solid silver;
-    background: var(--balquimia);
-}
-.btn-go-top:hover span {
-    color: white;
-}
 /*
  * Note that this is toastr v2.1.3, the "latest" version in url has no more maintenance,
  * please go to https://cdnjs.com/libraries/toastr.js and pick a certain version you want to use,
@@ -78,6 +46,38 @@ body {
 .contenedor-principal-balquimia-site {
     max-width: 100%;
     margin: 0 auto; 
+}
+
+.btn-go-top {
+    position: fixed;
+    bottom: 0px;
+    right: -100%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    background: var(--balquimia);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    transition: 400ms;
+    z-index: 9999;
+
+}
+
+.btn-go-top > span {
+    font-size: 30px;
+    color: var(--blanco);
+}
+
+.btn-go-top:hover {
+    border: 2px solid silver;
+    background: var(--balquimia);
+}
+.btn-go-top:hover span {
+    color: white;
 }
 .header {
     position: relative;

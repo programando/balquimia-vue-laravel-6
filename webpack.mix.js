@@ -22,19 +22,22 @@ mix.scripts(
     "public/js/Vendors.js"); // Archivo de salida JS
 */
 
-mix.sass('resources/sass/app.scss', 'public/css/sas.css');
-    
-    
+// 644 09 11 opc 4 cambio de prestador ....   
+//  115888324.. neuro fic ltda 668 88 70
+//  martes 29 a las 11:30 am
+// av 5 a nte 20 n 68 
 
+mix.sass('resources/sass/app.scss', 'public/css/main-file.css');
+    
 mix.styles(
     [
         "resources/css/app.css",
-        "resources/css/btn-go-top.css",
         //'resources/css/app_colors.css',
         //'resources/css/app_cards.css',
         //'resources/css/app_tables.css',
         "resources/vendors/css/toastr.min.css",
         "resources/js/apps/balquimia-site/css/app.css",
+        "resources/css/btn-go-top.css",
         "resources/js/apps/balquimia-site/css/header.css",
         "resources/js/apps/balquimia-site/css/quienes-somos.css",
         "resources/js/apps/balquimia-site/css/productos-servicios.css",

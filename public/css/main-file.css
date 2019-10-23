@@ -1,0 +1,18 @@
+h1.title {
+  background: #111111;
+  font: normal 24px/1.5 "Open Sans", sans-serif;
+  color: #F44336;
+  display: flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: columna;
+      -ms-flex-direction: columna;
+          flex-direction: columna;
+}
+
+.small-blue-square {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+
