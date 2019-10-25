@@ -31,20 +31,9 @@ mix.sass('resources/sass/app.scss', 'public/css/main-file.css');
     
 mix.styles(
     [
-        "resources/css/app.css",
-        //'resources/css/app_colors.css',
-        //'resources/css/app_cards.css',
-        //'resources/css/app_tables.css',
         "resources/vendors/css/toastr.min.css",
-        "resources/js/apps/balquimia-site/css/app.css",
-        "resources/css/btn-go-top.css",
-        "resources/js/apps/balquimia-site/css/header.css",
-        "resources/js/apps/balquimia-site/css/quienes-somos.css",
-        "resources/js/apps/balquimia-site/css/productos-servicios.css",
-        "resources/js/apps/balquimia-site/css/clientes.css",
-        "resources/js/apps/balquimia-site/css/footer.css",
     ],
-    "public/css/app.css"
+    "public/css/vendors.css"
 ); // Archivo de salida CSS
 
 

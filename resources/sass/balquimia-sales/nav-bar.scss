@@ -1,0 +1,62 @@
+.sales-cnt-ppal {
+    @include ContenedorPrincipal ;
+}
+
+.sales-cnt-menu {
+    @include MenuHeader;
+}
+.sales-menu-logo-img{
+    @include MenuLogo;
+}
+
+.sales-cnt-menu {
+    background: $balquimia;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+.sales-list-container ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.sales-list-container ul li {
+    margin-right: 30px;
+    display: flex;
+    
+}
+.sales-list-container ul li a{
+    display: flex;
+    color: $white;
+}
+.sales-menu-icono {
+    margin-right: 4px;
+}
+
+
+input {
+	outline: none;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	font-family: inherit;
+	font-size: 90%;
+}
+
+input[type=search] {
+	background: #ededed url('/storage/balquimia/icons/search-icon.png') no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 5px 10px 5px 32px;
+	width: 220px;
+	border-radius: 5em;
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+	width: 350px;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+

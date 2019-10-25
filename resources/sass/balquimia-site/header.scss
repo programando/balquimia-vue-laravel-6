@@ -1,28 +1,23 @@
+
+.contenedor-principal-balquimia-site {
+   @include ContenedorPrincipal ;
+}
+
 .header {
     position: relative;
     width: 100%;
 }
 
-
 .menu {
-    position       : fixed;
-    width          : 100%;
-    z-index        : 9999;
-    top            : 10px;
-    left           : 0;
-    height         : 60px;
-    font-size      : 1rem;
-    display        : flex;
-    justify-content: space-between;
-    align-items    : center;
-}
-.menu a {
-    color: var(--blanco);
-    margin-right: 18px;
+    @include MenuHeader;
 }
 
-.menu .list-container .lists li a{
-    cursor: pointer;
+.logo-menu {
+    @include MenuLogo ;
+}
+
+.menu a {
+    @include MenuColor( $white );
 }
 
 .menu .list-container .lists {
@@ -41,9 +36,6 @@
 /*
 
    
- 
-
-
 
 
 .menu .list-container .lists a {

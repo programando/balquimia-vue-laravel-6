@@ -6,13 +6,15 @@
 
         <title>Balquimia S.A.S. | Chemical Solutions </title>
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="{{ mix('css/app.css')}}">
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ mix('css/vendors.css')}}">
+        <link rel="stylesheet" href="{{ mix('css/main-file.css')}}">
         <!-- Styles -->
  
     </head>
     <body>
         <div id="AppVue">
+        
             <div class  ="content-body">
                 <router-view :key="$route.fullPath" >
                  </router-view>

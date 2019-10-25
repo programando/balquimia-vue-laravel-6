@@ -4,10 +4,10 @@
     --blue      : #08d9d6;
     --white     : #eaeaea;
     --blanco    : white;
-    --balquimia : #f9512f;
-    
+    --balquimia : #f9512f;    
 }
-/* --balquimia : #ff5733; */ 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,12 +16,13 @@
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 li {
     list-style: none;
 }
 body {
-    background: white;
+    background :$white;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     font-size: 0.8rem;
@@ -30,12 +31,7 @@ body {
  p {
     text-align: justify;
     font-size: 17px;
-    color: var(--black);
+    color: $black;
     line-height: 25px;
     margin: 10px 0px;
-}
-
-.contenedor-principal-balquimia-site {
-    max-width: 100%;
-    margin: 0 auto; 
 }
