@@ -1,21 +1,24 @@
-@import 'variables';
-@import 'mixins';
+@import './imports/variables';
+@import './imports/mixins';
 
 //ARCHIVO CON ESTILOS GENERALES
-@import 'root';
+@import './imports/root';
 
 // ARCHIVO DE SECCIONES
-@import  'balquimia-site/header';
-@import  'balquimia-site/quienes-somos.scss';
-@import  'balquimia-site/productos-servicios.scss';
-@import  'balquimia-site/clientes' ;
-@import  'balquimia-site/footer';
+@import  './balquimia-site/header';
+@import  './balquimia-site/quienes-somos.scss';
+@import  './balquimia-site/productos-servicios.scss';
+@import  './balquimia-site/clientes' ;
+@import  './balquimia-site/footer';
 
 // TIENDA VIRTUAL
-@import     'balquimia-sales/nav-bar';
+@import     './balquimia-sales/nav-bar';
 
 // UTILERIAS
-@import  'btn-go-top';
+@import  './imports/btn-go-top';
+@import  './elements-ui/cards-linea';
+@import  './elements-ui/sliders';
+
 
 
 

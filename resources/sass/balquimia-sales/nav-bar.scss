@@ -2,6 +2,11 @@
     @include ContenedorPrincipal ;
 }
 
+.sales-cnt-interno {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
 .sales-cnt-menu {
     @include MenuHeader;
 }

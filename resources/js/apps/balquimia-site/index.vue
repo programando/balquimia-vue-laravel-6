@@ -18,6 +18,7 @@
           <p>Innovación y desarrollo de productos químicos para amplios sectores de la industria nacional e internacional, con los más altos estándades de calidad y comprometidos con el cuidado y conservación del medio ambiente.</p>
         </div>
       </div>
+      <span id="quienesSomos"></span>
     </header>
     <!-- IMG HEADER -->
 

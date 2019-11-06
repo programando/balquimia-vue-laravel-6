@@ -1,6 +1,6 @@
 <template>
   <section class="quienes-somos">
-    <span id="quienesSomos"></span>
+    
     <div class="info-container">
       <h1>¿ Quiénes Somos ?</h1>
 
@@ -11,6 +11,7 @@
         <br />Detergentes, desinfectantes, desengrasantes, desoxidantes, dieléctricos, desincrustantes, removedores de tintas, desmoldantes, despercudidores, abrillantadores y ceras de varios tipos, entre otros
       </p>
     </div>
+    <span id="productosServicios"></span>
   </section>
 </template>
 

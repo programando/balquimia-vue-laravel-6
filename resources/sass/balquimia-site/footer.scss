@@ -31,10 +31,10 @@ background: rgba(0,0,0,0.6);
     display: flex;
     justify-content: space-around;
     flex: 1 0 33.33%;
-    color: var(--blanco);
+    color:  $white ;
     line-height: 25px;
 }
 
 .footer .contenedor-footer .footer-3  li a {
-    color: var(--blanco);
+    color: $white ;
 }

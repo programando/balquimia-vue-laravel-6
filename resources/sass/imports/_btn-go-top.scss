@@ -5,8 +5,8 @@
     width: 50px;
     height: 50px;
     border: 2px solid red;
-    background: var(--balquimia);
-    
+    background: $balquimia ;
+
 
     display: flex;
     justify-content: center;
@@ -19,12 +19,12 @@
 
 .btn-go-top > span {
     font-size: 30px;
-    color: var(--blanco);
+    color: $white ;
 }
 
 .btn-go-top:hover {
     border: 2px solid silver;
-    background: var(--balquimia);
+    background: $balquimia ;
 }
 .btn-go-top:hover span {
     color: white;

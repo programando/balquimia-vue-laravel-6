@@ -8,10 +8,10 @@ Vue.config.devtools = true;
 export default new Router({
    routes : [
         {  path: '/'  , name: 'Balquimia-site-index',  
-           component :  require('../apps/balquimia-site/components/index.vue').default,              },
+           component :  require('../apps/balquimia-site/index.vue').default,              },
 
         {  path: '/ventas'  , name: 'sales-index',  
-           component :  require('../apps/balquimia-sales/components/index.vue').default,              },
+           component :  require('../apps/balquimia-sales/index.vue').default,              },
    
       
      /*   { component :

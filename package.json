@@ -23,6 +23,7 @@
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
+        "v-money": "^0.8.1",
         "vue": "^2.6.10",
         "vue-carousel": "^0.18.0",
         "vue-json-pretty": "^1.6.2",

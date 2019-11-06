@@ -15,7 +15,7 @@
 .quienes-somos .info-container  h1 {
     font-size: 40px;
     font-weight: 400;
-    color: var(--black);
+    color: $black ;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -23,7 +23,7 @@
 .quienes-somos .info-container p {
     text-align: justify;
     font-size: 17px;
-    color: var(--black);
+    color: $black ;
     line-height: 25px;
     margin: 10px 0px;
 }

@@ -1,5 +1,6 @@
 <template>
-  <div class="sales-cnt-ppal">
+     <div>
+    
     <nav class="sales-cnt-menu">
       <div class="sales-menu-logo">
         <img class="sales-menu-logo-img" :src="imgLogo" alt />
@@ -40,9 +41,9 @@
         </ul>
       </div>
     </nav>
-  </div>
+   
+     </div>
 </template>
-
 
 <script>
 export default {
@@ -53,4 +54,3 @@ export default {
   }
 };
 </script>
-

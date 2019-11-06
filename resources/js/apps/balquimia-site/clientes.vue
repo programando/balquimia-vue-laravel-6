@@ -6,20 +6,20 @@
         <p> Estas son algunas de las empresas que durante años han confiado en nuestro profesionalismo y calidad de los prductos que fabricamos:  </p>
 
         <carousel  :per-page="1" :autoplay="true" :mouse-drag="false" :centerMode="true" :loop="true" :autoplayTimeout="3000" :perPage="5">
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img01" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img02" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img03" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img04" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img05" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img06" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img07" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img08" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img09" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img10" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img11" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img12" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img13" >   </div> </slide>
-          <slide>  <div class="VueCarousel-slide VueCarousel-img"><img :src="img14" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img01" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img02" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img03" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img04" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img05" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img06" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img07" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img08" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img09" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img10" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img11" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img12" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img13" >   </div> </slide>
+          <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img14" >   </div> </slide>
       </carousel>
       <span id="clientes"></span>
         

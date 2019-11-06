@@ -22,11 +22,7 @@ mix.scripts(
     "public/js/Vendors.js"); // Archivo de salida JS
 */
 
-// 644 09 11 opc 4 cambio de prestador ....   
-//  115888324.. neuro fic ltda 668 88 70
-//  martes 29 a las 11:30 am
-// av 5 a nte 20 n 68 
-
+ 
 mix.sass('resources/sass/app.scss', 'public/css/main-file.css');
     
 mix.styles(
@@ -59,7 +55,7 @@ mix.browserSync({
     //browser : 'Google Chrome',
 });
 mix.disableNotifications();
-
+// process.env.NODE_ENV
 if (mix.inProduction()) {
     mix.version();
 }
