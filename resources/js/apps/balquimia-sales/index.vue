@@ -2,24 +2,24 @@
   <div class="sales-cnt-ppal">
      <div class="sales-cnt-interno">
 
-      
+
 
         <carousel  :per-page="1" :autoplay="true" :mouse-drag="false" :centerMode="true" :loop="true" :autoplayTimeout="3000" :perPage="5">
 
 
-          <slide >  
+          <slide >
             <div class="sales-slider-lineas-img">
-                <img :scr="img01" />   
- 
-             </div> 
-        
+                <img :scr="img02" />
+
+             </div>
+
           </slide>
         </carousel>
 
- 
+
   </div>
   </div>
-  
+
 </template>
 
 
@@ -38,6 +38,7 @@ export default {
   data() {
     return {
            img01 : '/storage/balquimia-site/clientes/1.png',
+           img02 : '/storage/balquimia-site/clientes/1.png',
     };
   },
   components : { MenuSuperior, Carousel, Slide },
