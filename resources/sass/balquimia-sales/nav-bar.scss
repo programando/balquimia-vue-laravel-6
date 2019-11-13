@@ -3,21 +3,23 @@
 }
 
 .sales-cnt-interno {
-    width: 85%;
-    margin: auto;
+    width        : 85%;
+    margin       : auto;
     margin-bottom: 30px;
+    margin-top   : 50px;
 }
 .sales-cnt-menu {
     @include MenuHeader;
 }
+
 .sales-menu-logo-img{
     @include MenuLogo;
 }
 
 .sales-cnt-menu {
-    background: $balquimia;
-    top: 0px;
-    display: flex;
+    background : $balquimia;
+    top        : 0px;
+    display    : flex;
     align-items: center;
 }
 .sales-list-container ul {
@@ -27,8 +29,8 @@
 
 .sales-list-container ul li {
     margin-right: 30px;
-    display: flex;
-    
+    display     : flex;
+
 }
 .sales-list-container ul li a{
     display: flex;

@@ -13,11 +13,11 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 class MstroLinea extends Eloquent
 {
 	protected $primaryKey = 'id_linea';
-	public $timestamps = false;
-	protected $appends  = ['image_path', 'slider_path'];
-	protected $casts = [ 'orden_web' => 'int', 'inactivo' => 'bool' ];
-	protected $fillable = [ 'cod_linea', 'nom_linea',  'orden_web',  'dscrpcion_linea',  'img_linea',  'img_slider', 'img_path', 'inactivo' ];
-	
+	public    $timestamps = false;
+	protected $appends    = ['image_path', 'slider_path'];
+	protected $casts      = [ 'orden_web' => 'int', 'inactivo' => 'bool' ];
+	protected $fillable   = [ 'cod_linea', 'nom_linea',  'orden_web',  'dscrpcion_linea',  'img_linea',  'img_slider', 'img_path', 'inactivo' ];
+
 
   /*--------------------------------------
         SCOPES

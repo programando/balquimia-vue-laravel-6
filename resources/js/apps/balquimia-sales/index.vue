@@ -2,20 +2,9 @@
   <div class="sales-cnt-ppal">
      <div class="sales-cnt-interno">
 
-
-
-        <carousel  :per-page="1" :autoplay="true" :mouse-drag="false" :centerMode="true" :loop="true" :autoplayTimeout="3000" :perPage="5">
-
-
-          <slide >
-            <div class="sales-slider-lineas-img">
-                <img :scr="img02" />
-
-             </div>
-
-          </slide>
-        </carousel>
-
+       <MenuSuperior></MenuSuperior>
+       <LineasProductosSliders></LineasProductosSliders>
+       <ProductosDestacados></ProductosDestacados>
 
   </div>
   </div>
@@ -25,26 +14,27 @@
 
 <script>
 /*  <slide>  <div class="VueCarousel-slide site-slider-clientes-img"><img :src="img01" >   </div> </slide> */
-import MenuSuperior         from './menu-superior';
-import { Carousel, Slide }  from 'vue-carousel';
-import { mapGetters }       from 'vuex';
+import { Carousel, Slide }    from 'vue-carousel';
+import { mapGetters }         from 'vuex';
 
+import MenuSuperior           from './menu-superior';
+import LineasProductosSliders from './../../components/lineas/card-linea-slide';
+import ProductosDestacados    from './../../components/products/destacados';
 
 export default {
 
   mounted() {
       this.$store.dispatch('LineasProductosConsultar');
   },
-  data() {
-    return {
-           img01 : '/storage/balquimia-site/clientes/1.png',
-           img02 : '/storage/balquimia-site/clientes/1.png',
-    };
-  },
-  components : { MenuSuperior, Carousel, Slide },
+
+  components : { MenuSuperior, Carousel, Slide, LineasProductosSliders, ProductosDestacados },
+
   computed: {
       ...mapGetters(['LineasProductos']),
-  }
+    }
+
 };
+
+
 </script>
 
