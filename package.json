@@ -16,7 +16,7 @@
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env"                  : "^5.1",
         "laravel-mix"                : "^4.0.7",
-        "lodash"                     : "^4.17.13",
+        "lodash"                     : "^4.17.21",
         "moment"                     : "^2.24.0",
         "numeral"                    : "^2.0.6",
         "postcss-loader"             : "^3.0.0",
